@@ -292,7 +292,7 @@ function CardapioPage({ staffMode }) {
       <div className="page-head">
         <div>
           <h2 className="page-title"><PixelLemon size={22} style={{ verticalAlign: "-4px", marginRight: 6 }} />O que tem no cardápio</h2>
-          <p className="muted">Peça no chat e eu coloco na fila.</p>
+          <p className="muted">Os pedidos são feitos via Pix.</p>
         </div>
         {staffMode && (
           <button className="btn btn-primary" onClick={() => { setEditando(null); setFormAberto(true); }}>
